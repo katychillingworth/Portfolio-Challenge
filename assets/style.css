@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -16,7 +14,6 @@ h6 {
 p {
     margin: 0;
 }
-
 
 nav {
     display: flex;
@@ -39,7 +36,6 @@ nav h1 {
 
 nav ul {
     display: inline;
-    float: right;
     width: 50%;
     color: white;
 }
@@ -52,13 +48,7 @@ nav ul li a {
     padding: 5px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-}
-
-.aboutme {
+.aboutMe {
     margin-right: 2px;
     margin-top: 2px;
     padding: 20px;
@@ -91,9 +81,6 @@ footer {
     margin-top: 2px;
 }
 
-.flexitem img {
-    size: 300px 
-}
 
 ul {
     display: flex;
@@ -105,7 +92,7 @@ li {
     margin-left: 3rem;
 }
 
-.navigation ul {
-    list-style-type: none;
+footer {
+    display: flex;
+    justify-content: center;
 }
-
